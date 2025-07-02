@@ -15,11 +15,11 @@ variable |	explanation	|	variable group	|	variable type	|	note
 ID	|	participant's ID code	|	demography	|	n.a.	
 sex	|	participant's ID code	|	demography	|	control	
 age_years	|	age in years	|	demography	|	predictor	
-years_in_education	|	years in education	|	demography	|	n.a.	
-highest_education_level	|	highest education level	|	demography	|	n.a.	
-current_education_level	|	current education level (if indicated)	|	demography	|	n.a.	
-SAT_test_version	|	test version of the SAT test ("with sound": child friendly version)	|	language	|	outcome	
-SAT_accuracy	|	SAT accuracy score	|	language	|	outcome	
+years_in_education	|	years in education	|	demography	|	control	
+highest_education_level	|	highest education level	|	demography	|	control	
+current_education_level	|	current education level (if indicated)	|	demography	|	control	
+SAT_test_version	|	test version of the SAT test ("with sound": child friendly version)	|	ToM	|	n.a.	
+SAT_accuracy	|	SAT accuracy score	|	ToM	|	outcome	
 PS_vis_RT	|	perceptual speed visual reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
 PS_ac_RT	|	perceptual speed acoustic reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively 
 PS_vis_dec_RT	|	processing speed visual decision reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
@@ -31,8 +31,8 @@ n_back_2_mean_score	|	nback task score aggregated from block 2back	|	general cog
 n_back_3_mean_score	|	nback task score aggregated from block 3back	|	general cognitive	|	predictor	
 simon_RT	|	reaction time index from the Simon task	|	general cognitive	|	predictor	
 stroop_RT	|	reaction time index from the Stroop task	|	general cognitive	|	predictor	
-pragm_compr_test_version	|	test version of the TROG task including the "pragmatic comprehension" subtest which is included here	|	general cognitive	|	predictor	
-pragm_compr_accuracy	|	pragmatic comprehension accuracy score	|	general cognitive	|	predictor	
+pragm_compr_test_version	|	test version of the TROG task including the "pragmatic comprehension" subtest which is included here	|	language	|	n.a.	
+pragm_compr_accuracy	|	pragmatic comprehension accuracy score	|	language	|	predictor	
 
 # description of indices
 
