@@ -56,8 +56,8 @@ df = df.rename(
         'ACC' : "SAT_accuracy",
         'vis_RT_med' : "PS_vis_RT",
         'ac_RT_med' : "PS_ac_RT",
-        'vis_dec_RT_med' : "PS_vis_dec",
-        'ac_dec_RT_med' : "PS_ac_dec",
+        'vis_dec_RT_med' : "PS_vis_dec_RT",
+        'ac_dec_RT_med' : "PS_ac_dec_RT",
         'forward_span' : "DS_forward",
         'backward_span' : "DS_backward",
         'experiment_version' : "pragm_compr_test_version",
@@ -65,7 +65,7 @@ df = df.rename(
         }
     )
 df = df.drop(
-    ['right_handedness', 'dich_handedness', 'incorrect_ID', 'cognitive_impairment', 'books_read_per_year', 'MoCA', 'inclusion', 'reason_for_exclusion', 'duplicated', 'backup_date'],
+    ['incorrect_ID', 'right_handedness', 'dich_handedness', 'native', 'cognitive_impairment', 'books_read_per_year', 'MoCA', 'inclusion', 'reason_for_exclusion', 'duplicated', 'backup_date'],
     axis = 1
     )
 
