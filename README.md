@@ -15,24 +15,24 @@ variable |	explanation	|	variable group	|	variable type	|	note
 ID	|	participant's ID code	|	demography	|	n.a.	
 sex	|	participant's ID code	|	demography	|	control	
 age_years	|	age in years	|	demography	|	predictor	
-years_in_education	|	participant's ID code	|	demography	|	n.a.	
-highest_education_level	|	participant's ID code	|	demography	|	n.a.	
-current_education_level	|	participant's ID code	|	demography	|	n.a.	
-SAT_test_version	|	expressive vocabulary score	|	language	|	outcome	
-SAT_accuracy	|	sentence repetition score	|	language	|	outcome	
-PS_vis_RT	|	processing speed visual reaction time score	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices; can be recoded if necessary
-PS_ac_RT	|	processing speed acoustic reaction time score	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively 
-PS_vis_dec_RT	|	processing speed visual reaction time score	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices; can be recoded if necessary
-PS_ac_dec_RT	|	processing speed acoustic reaction time score	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively DS_forward	|	digit span forward score	|	general cognitive	|	predictor	
+years_in_education	|	years in education	|	demography	|	n.a.	
+highest_education_level	|	highest education level	|	demography	|	n.a.	
+current_education_level	|	current education level (if indicated)	|	demography	|	n.a.	
+SAT_test_version	|	test version of the SAT test ("with sound": child friendly version)	|	language	|	outcome	
+SAT_accuracy	|	SAT accuracy score	|	language	|	outcome	
+PS_vis_RT	|	perceptual speed visual reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
+PS_ac_RT	|	perceptual speed acoustic reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively 
+PS_vis_dec_RT	|	processing speed visual decision reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
+PS_ac_dec_RT	|	processing speed acoustic decision reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
+DS_forward	|	digit span forward score	|	general cognitive	|	predictor	
 DS_backward	|	digit span backward score	|	general cognitive	|	predictor	
-correlates with other indices; can be recoded if necessary
+n_back_1_mean_score	|	nback task score aggregated from block 1back	|	general cognitive	|	predictor	
 n_back_2_mean_score	|	nback task score aggregated from block 2back	|	general cognitive	|	predictor	
-n_back_2_mean_score	|	nback task score aggregated from block 2back	|	general cognitive	|	predictor	
-n_back_2_mean_score	|	nback task score aggregated from block 2back	|	general cognitive	|	predictor	
-n_back_2_mean_score	|	nback task score aggregated from block 2back	|	general cognitive	|	predictor	
-n_back_2_mean_score	|	nback task score aggregated from block 2back	|	general cognitive	|	predictor	
-n_back_2_mean_score	|	nback task score aggregated from block 2back	|	general cognitive	|	predictor	
-n_back_2_mean_score	|	nback task score aggregated from block 2back	|	general cognitive	|	predictor	
+n_back_3_mean_score	|	nback task score aggregated from block 3back	|	general cognitive	|	predictor	
+simon_RT	|	reaction time index from the Simon task	|	general cognitive	|	predictor	
+stroop_RT	|	reaction time index from the Stroop task	|	general cognitive	|	predictor	
+pragm_compr_test_version	|	test version of the TROG task including the "pragmatic comprehension" subtest which is included here	|	general cognitive	|	predictor	
+pragm_compr_accuracy	|	pragmatic comprehension accuracy score	|	general cognitive	|	predictor	
 
 # description of indices
 
