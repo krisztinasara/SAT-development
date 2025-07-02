@@ -16,7 +16,7 @@ current_education_level	|	current education level (if indicated)	|	demography	|	
 SAT_test_version	|	test version of the SAT test ("with sound": child friendly version)	|	ToM	|	n.a.	
 SAT_accuracy	|	SAT accuracy score	|	ToM	|	outcome	
 PS_vis_RT	|	perceptual speed visual reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
-PS_ac_RT	|	perceptual speed acoustic reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively 
+PS_ac_RT	|	perceptual speed acoustic reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
 PS_vis_dec_RT	|	processing speed visual decision reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
 PS_ac_dec_RT	|	processing speed acoustic decision reaction time	|	general cognitive	|	predictor	|	lower values mean better processing, likely negatively correlates with other indices
 DS_forward	|	digit span forward score	|	general cognitive	|	predictor	
