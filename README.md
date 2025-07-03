@@ -2,6 +2,7 @@
 
 - data: data files, df.csv contains merged data, files starting with "SAT" and "trog" contain SAT and pragmatic comprehension task data
 - script: merging script and scripts for calculating SAT and pragmatic comprehension scores
+- analyses_from_SL_study: script and data of a age effects on statistical learning study, where a mediation analysis was used for looking at what core cognitive properties/functions (perceptual speed, working memory) mediate in the age-ToM relationship
 
 # summary of indices
 
