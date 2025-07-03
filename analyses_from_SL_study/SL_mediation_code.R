@@ -2,7 +2,7 @@ library(tidyverse)
 library(lavaan)
 library(psych)
 
-df = read_csv("../data/df_aggr.csv")
+df = read_csv("SL_df.csv")
 
 df = df |>
   mutate(
